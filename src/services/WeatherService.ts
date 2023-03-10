@@ -15,7 +15,7 @@ export async function searchLocation(
 ): Promise<WeatherLocation | undefined> {
   const result = await fetch(
     // `${server}/weather?id=524901&q=${term}&${keyQuery}`
-    `https://api.openweathermap.org/data/2.5/weather?id=524901&q=${term}&appid=${key}`
+    `http://api.openweathermap.org/data/2.5/weather?id=524901&q=${term}&appid=${key}`
   );
 
   if (result.status === 404) return undefined;
