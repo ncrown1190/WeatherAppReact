@@ -13,8 +13,8 @@ export default function DarkmodeApp() {
     document.body.className = theme;
   }, [theme]);
 
-  const lightMode = "Light Mode  ";
-  const darkMode = "Dark Mode  ";
+  // const lightMode = "Light Mode  ";
+  // const darkMode = "Dark Mode  ";
 
   return (
     <div>
