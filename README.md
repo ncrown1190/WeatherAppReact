@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-![View](src/imgages/02-darkmode.png)
+![View](src/images/02-darkmode.png)
 
 To Create Interface
 https://jvilk.com/MakeTypes/
