@@ -16,6 +16,7 @@ export async function searchLocation(
   const result = await fetch(
     // `${server}/weather?id=524901&q=${term}&${keyQuery}`
     `https://api.openweathermap.org/data/2.5/weather?id=524901&q=${term}&appid=${key}`
+    // `https://api.openweathermap.org/data/2.5/weather?id=524901&q=${term}&appid=94c5eff531044e5b45118a9826b3e4a7`
   );
 
   if (result.status === 404) return undefined;
